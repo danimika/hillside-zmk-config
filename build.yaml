@@ -17,6 +17,8 @@ include:
   #   Comment out below if you do not have this board, to save build time
   - board: nice_nano
     shield: hillside46_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: hillside46_right
 
@@ -24,6 +26,8 @@ include:
   #   Comment out below if you do not have this board, to save build time
   - board: nice_nano
     shield: hillside48_left
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano
     shield: hillside48_right
 
